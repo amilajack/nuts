@@ -44,7 +44,7 @@
     "url": "https://github.com/GitbookIO/nuts.git"
   },
   "scripts": {
-    "start": "node bin/web.js",
+    "start": "PORT=80 GITHUB_REPO=amilajack/popcorn-time-desktop API_USERNAME=hello API_PASSWORD=world node bin/web.js",
     "test": "mocha --reporter list"
   }
 }
